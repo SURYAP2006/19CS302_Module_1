@@ -14,28 +14,26 @@ To write a C program to read the age of a person and determine whether he is eli
 8. End.  
 
 ## Program:
-#include<stdio.h> 
+#include <stdio.h>
 
-int main(){
- 
-char p1;
- 
-scanf("%c", &p1); 
+int main() {
+    int age;
 
-if(p1=='P') 
+    scanf("%d", &age);
 
-{ 
+    if (age >= 21) {
+        printf("You are eligible for marriage.\n");
+    } else {
+        printf("You are not eligible for marriage.\n");
+    }
 
-printf("Present"); 
-
-} 
-
-return 0; 
-
+    return 0;
 }
 
+
 ## Output:
-![image](https://github.com/user-attachments/assets/d71a7160-d610-4c9e-99ac-f3a09c2f279f)
+![image](https://github.com/user-attachments/assets/7a255bf5-6988-42b8-b339-996e6579924e)
+
 
 
 
