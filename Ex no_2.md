@@ -15,15 +15,24 @@ To write a program to check whether the attendance is PRESENT using simple if st
 
 ## Program:
 
-#include<stdio.h> 
+#include<stdio.h>
+ 
 int main(){ 
+
 char p1; 
-scanf("%c", &p1); 
+
+scanf("%c", &p1);
+ 
 if(p1=='P') 
+
 { 
+
 printf("Present"); 
+
 } 
+
 return 0; 
+
 }
 
 ## Output:
