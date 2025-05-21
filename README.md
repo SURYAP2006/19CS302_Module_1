@@ -43,7 +43,7 @@ To write a program to check whether the attendance is PRESENT using simple if st
 8. End.  
 
 ## Program:
-
+```
 #include<stdio.h>
  
 int main(){ 
@@ -63,6 +63,7 @@ printf("Present");
 return 0; 
 
 }
+```
 
 ## Output:
 
@@ -89,6 +90,7 @@ To write a C program to find number of years based on principle,rate & simple in
 6. End .    
 
 ## Program:
+```
 #include <stdio.h> 
 #include <math.h> 
 int main() 
@@ -100,6 +102,7 @@ ci=(p)*(pow((1+ r/100),n));
 printf("Simple Interest = %0.2f\nCompound Interest = %0.2f", si,ci); 
 return 0; 
 }
+```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/fc4e3c25-2b86-451b-9ed7-a7b0692f4185)
@@ -125,6 +128,7 @@ To write a C program to read the age of a person and determine whether he is eli
 8. End.  
 
 ## Program:
+```
 #include <stdio.h>
 
 int main() {
@@ -140,7 +144,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/7a255bf5-6988-42b8-b339-996e6579924e)
