@@ -14,7 +14,7 @@ To write a program to check whether the attendance is PRESENT using simple if st
 8. End.  
 
 ## Program:
-
+```
 #include<stdio.h>
  
 int main(){ 
@@ -34,7 +34,7 @@ printf("Present");
 return 0; 
 
 }
-
+```
 ## Output:
 
 ![image](https://github.com/user-attachments/assets/c55b68e3-a4c1-4900-8b39-ad6bebe7a64b)
